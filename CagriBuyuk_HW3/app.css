@@ -1,0 +1,53 @@
+/* CSS resetting */
+* { margin:0; padding:0 ; box-sizing: border-box;}
+
+/* project table properties */
+table { border-collapse: collapse; margin: 30px auto ;}
+td, th { border-bottom: 1px solid #AAA;  padding: 10px; text-align: left;}
+
+/* to show tags in an oval shape (for span and a elements) */
+#tag { display: inline-block; 
+       border:1px solid #AAA; 
+       border-radius: 15px; 
+       padding:4px 10px; 
+       margin-right: 10px;
+       text-decoration: none;
+       color: #666;
+       text-align:center;
+}
+
+.tag{
+       text-align: center;
+      
+}
+
+.tag:hover { background: #DDF; cursor: pointer}
+
+.tag p{
+       text-align: center;
+}
+
+
+/* for "X" symbol within tag to delete */
+.tag a { text-decoration: none; color: #666; font-size: 0.8em; font-weight: normal;}
+
+/* stripe pattern for the table */
+tr:nth-of-type(2n-1) { background: #EEE;}
+tr:first-of-type { background: #FDD;}
+
+/* heart symbol as a link */
+.heart { text-decoration: none;}
+
+/* search textbox */
+#search { margin-left: 40%; width: 200px; padding: 5px 10px; border: 1px solid #AAA; }
+#search:focus { outline: none;}
+
+/* For spinning/loading icon */
+div#loader { text-align: center; display: none;}
+div#loader img { width:150px}
+
+/* For search tag list container */
+form div { text-align: center; margin-top: 30px; margin-bottom: 30px;}
+#tags { border-bottom: 3px solid #AAA; padding-bottom: 20px;}
+
+.center { text-align: center;}
